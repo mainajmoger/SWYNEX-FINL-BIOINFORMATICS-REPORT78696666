@@ -27,6 +27,44 @@ Tools used:
 The workflow included obtaining FASTA sequence data, reading the sequence using Python, checking its length, calculating nucleotide composition, determining GC and AT content, and visualizing the results using graphs.
 
 ### 5. Results
+DNA sequence analysis was performed using Python and Biopython. The sequence was analyzed to determine its length, nucleotide composition, and GC and AT content.
+
+#### 5.1 DNA Sequence Length
+
+The analyzed DNA sequence contained a total of 2,902 bases.
+
+#### 5.2 Nucleotide Composition
+
+The nucleotide counts obtained from the analysis are shown below.
+
+| DNA Base | Count |
+|----------|------:|
+| Adenine (A) | 822 |
+| Thymine (T) | 632 |
+| Guanine (G) | 861 |
+| Cytosine (C) | 587 |
+| **Total** | **2,902** |
+
+Guanine was the most abundant nucleotide, with 861 bases, followed by adenine (822), thymine (632), and cytosine (587).
+
+#### 5.3 GC and AT Content
+
+The calculated nucleotide percentages were:
+
+- GC Content: 49.9%
+- AT Content: 50.1%
+
+GC content represents the proportion of guanine and cytosine bases, whereas AT content represents the proportion of adenine and thymine bases. The results indicate that the sequence had nearly equal GC and AT content.
+
+#### 5.4 Data Visualization
+
+Three graphs were generated using Python and Matplotlib:
+
+1. `DNA_Base_Composition.png` – visualizes the counts of adenine, thymine, guanine, and cytosine.
+2. `GC_AT_Content.png` – compares the GC and AT percentages.
+3. `DNA_Sequence_Length.png` – displays the total DNA sequence length.
+
+These visualizations helped summarize the sequence characteristics and made the numerical results easier to interpret.
 The analysis workflow demonstrated how biological sequence data can be processed computationally.
 
 The main outputs included:
